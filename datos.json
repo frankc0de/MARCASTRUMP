@@ -1,3 +1,10 @@
 [
-    { "nombre": "NISSAN", "descripcion": "Avanza que estan pensando transladarse a EEUU para evitar aranceles." }
+    { "nombre": "NISSAN", "descripcion": "Avanza que estan pensando transladarse a EEUU para evitar aranceles." },
+    { "nombre": "Apple", "descripcion": "sin descripción." },
+    { "nombre": "Amazon", "descripcion": "sin descripción." },
+    { "nombre": "Tesla", "descripcion": "sin descripción." },
+    { "nombre": "Nvidia", "descripcion": "sin descripción." },
+    { "nombre": "Meta", "descripcion": "sin descripción." },
+    { "nombre": "Microsoft", "descripcion": "sin descripción." },
+    { "nombre": "Nike", "descripcion": "sin descripción." },
   ]
