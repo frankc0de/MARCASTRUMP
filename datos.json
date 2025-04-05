@@ -1,87 +1,382 @@
 [
-    { "origen":"","nombre": "NISSAN", "descripcion": "Avanza que estan pensando transladarse a EEUU para evitar aranceles."},
-    { "origen":"","nombre": "Apple", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Amazon", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Tesla", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Nvidia", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Meta", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Microsoft", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Nike", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Pepsi", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Starbucks", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Coca-Cola", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "McDonald's", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Kellogg's", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Heinz", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Ford", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "General Motors", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Harley-Davidson", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Levi's", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Walmart", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Disney", "descripcion": "sin descripción."},
-    { "origen":"","nombre": "Netflix", "descripcion": "sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "CMON (Cool Mini Or Not)", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Awaken Realms", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Globe", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Element", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "DC Shoes", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Vans", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Emerica", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Etnies", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Lakai", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Converse", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Adidas", "descripcion": "ssin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Antihero", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Baker", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Chocolate", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Dickies", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Independent", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Thrasher", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Spitfire", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Volcom", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Moog", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Sequential", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "DSI (Dave Smith Instruments)", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Oberheim", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Arp", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Novation", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Soma Labs", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Teenage Engineering", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Elektron", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Asmodee", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "2Tomatoes", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Arrakis Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Bumble3ee Interactive", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Compass Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Delirium Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Devir", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Edge Entertainment", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Fantasy Flight", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Funko", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Gamegenic", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "GMT Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Hasbro", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Ludonova", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "MayDay Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Ravensburger", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Edge Entertainment", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Fantasy Flight", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Funko", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Gamegenic", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "GMT Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Hasbro", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Ludonova", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "MayDay Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Ravensburger", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "SD Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "TCG Factory", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Ultra Pro", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Upper Deck", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Z-Man Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "DVG Dan Versen Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Decision Games", "descripcion": "sin validar, sin descripción."},               
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Do It Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Nuts Publishing", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Headquarter Games", "descripcion": "sin validar, sin descripción."},
-    { "origen":"@pablomakillkursis.bsky.social","nombre": "Victory Point Games", "descripcion": "sin validar, sin descripción."}
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "2Tomatoes",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Adidas",
+    "descripcion": "ssin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Amazon",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Antihero",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Apple",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Arp",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Arrakis Games",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Asmodee",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Awaken Realms",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Baker",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Bumble3ee Interactive",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "CMON (Cool Mini Or Not)",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Chocolate",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Coca-Cola",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Compass Games",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Converse",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "DC Shoes",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "DSI (Dave Smith Instruments)",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "DVG Dan Versen Games",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Decision Games",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Delirium Games",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Devir",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Dickies",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Disney",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Do It Games",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Edge Entertainment",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Elektron",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Element",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Emerica",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Etnies",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Fantasy Flight",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Ford",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Funko",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "GMT Games",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Gamegenic",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "General Motors",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Globe",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Harley-Davidson",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Hasbro",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Headquarter Games",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Heinz",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Independent",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Kellogg's",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Lakai",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Levi's",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Ludonova",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "MayDay Games",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "McDonald's",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Meta",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Microsoft",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Moog",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "NISSAN",
+    "descripcion": "Avanza que estan pensando transladarse a EEUU para evitar aranceles."
+  },
+  {
+    "origen": "",
+    "nombre": "Netflix",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Nike",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Novation",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Nuts Publishing",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Nvidia",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Oberheim",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Pepsi",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Ravensburger",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "SD Games",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Sequential",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Soma Labs",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Spitfire",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Starbucks",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "TCG Factory",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Teenage Engineering",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Tesla",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Thrasher",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Ultra Pro",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Upper Deck",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Vans",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Victory Point Games",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Volcom",
+    "descripcion": "sin validar, sin descripción."
+  },
+  {
+    "origen": "",
+    "nombre": "Walmart",
+    "descripcion": "sin descripción."
+  },
+  {
+    "origen": "@pablomakillkursis.bsky.social",
+    "nombre": "Z-Man Games",
+    "descripcion": "sin validar, sin descripción."
+  }
 ]

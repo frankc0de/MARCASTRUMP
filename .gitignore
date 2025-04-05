@@ -1,1 +1,5 @@
 MARCASTRUMP.code-workspace
+Local/main.py
+Local/PreCarga.csv
+Local/requirements.txt
+backup/datos.json
