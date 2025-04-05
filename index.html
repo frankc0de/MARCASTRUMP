@@ -19,6 +19,7 @@
       background-color: black;
       color:white;      
       margin-bottom: 10px;
+      margin-top: 10px;
     }
     .result {
       margin-top: 1rem; 
@@ -60,7 +61,6 @@
   <br>
   <input type="text" id="searchBox" placeholder="Escribe para buscar..." />
   <div class="texto-movil">Total de empresas en la base de datos: <span id="totalCount">0</span></div>
-
   <a style="display:inline-block; margin-top:20px; padding:10px 15px; background:#0077cc; color:#fff; border-radius:5px; text-decoration:none;" href="https://bsky.app/profile/frank000.bsky.social">Sigueme en BlueSky</a>
   <a 
   href="https://bsky.app/intent/compose?text=Estoy%20usando%20esta%20app%20genial%20para%20buscar%20productos%20Trumpistas.%20¡Pruébala%20aquí!%20https%3A%2F%2Ffrankc0de.github.io%2FMARCASTRUMP%2F" 
@@ -101,7 +101,7 @@
       resultados.forEach(item => {
         const div = document.createElement('div');
         div.className = 'result';
-        div.innerHTML = `<strong>${item.nombre}</strong><span>${item.descripcion}</span>`;
+        div.innerHTML = `<div><img src='images/${item.nombre}.png' onerror=this.onerror=null;this.src='images/defecto.png'; width='32px' height='32px'><strong>${item.nombre}</strong></div><span>${item.descripcion}</span>`;
         resultsDiv.appendChild(div);
       });
     });
