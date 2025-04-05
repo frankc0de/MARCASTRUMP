@@ -106,7 +106,8 @@
       resultados.forEach(item => {
         const div = document.createElement('div');
         div.className = 'result';
-        div.innerHTML = `<div><img alt='${item.nombre}' title='gracias a ${item.origen}' src='images/${item.nombre}.png' onerror=this.onerror=null;this.src='images/defecto.png'; width='32px' height='32px'><strong>${item.nombre}</strong></div><span>${item.descripcion}</span>`;
+        /*div.innerHTML = `<div><img alt='${item.nombre}' title='gracias a ${item.origen}' src='images/${item.nombre}.png' onerror=this.onerror=null;this.src='images/defecto.png'; width='32px' height='32px'><strong>${item.nombre}</strong></div><span>${item.descripcion}</span>`;*/
+        div.innerHTML = `<div><img alt='${item.nombre}' title='gracias a ${item.origen}' src='images/${item.nombre}.png' onerror=this.onerror=null;this.src='images/defecto.png'; width='32px' height='32px'><span style='padding-left:5px;'>${item.nombre}</span></div>`;
         resultsDiv.appendChild(div);
       });
     });
