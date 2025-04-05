@@ -7,5 +7,17 @@
     { "nombre": "Meta", "descripcion": "sin descripción." },
     { "nombre": "Microsoft", "descripcion": "sin descripción." },
     { "nombre": "Nike", "descripcion": "sin descripción." },
-    { "nombre": "Pepsi", "descripcion": "sin descripción." }
+    { "nombre": "Pepsi", "descripcion": "sin descripción." },
+    { "nombre": "Starbucks", "descripcion": "sin descripción." },
+    { "nombre": "Coca-Cola", "descripcion": "sin descripción." },
+    { "nombre": "McDonald's", "descripcion": "sin descripción." },
+    { "nombre": "Kellogg's", "descripcion": "sin descripción." },
+    { "nombre": "Heinz", "descripcion": "sin descripción." },
+    { "nombre": "Ford", "descripcion": "sin descripción." },
+    { "nombre": "General Motors", "descripcion": "sin descripción." },
+    { "nombre": "Harley-Davidson", "descripcion": "sin descripción." },
+    { "nombre": "Levi's", "descripcion": "sin descripción." },
+    { "nombre": "Walmart", "descripcion": "sin descripción." },
+    { "nombre": "Disney", "descripcion": "sin descripción." },
+    { "nombre": "Netflix", "descripcion": "sin descripción." }
   ]
