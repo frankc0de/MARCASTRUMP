@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MARCAS TRUMP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: black;
+      color:white;
+    }
+    input[type="text"] {
+      width: 300px;
+      padding: 8px;
+      font-size: 16px;
+      background-color: black;
+      color:white;      
+      margin-bottom: 10px;
+    }
+    .result {
+      margin-top: 10px;
+      border-bottom: 1px solid #ccc;
+      padding: 8px 0;
+      background-color: black;
+      color:white;      
+    }
+    .result strong {
+      display: block;
+      font-size: 18px;      
+    }
+    .contador {
+        margin-bottom: 10px;
+    }
+  </style>
+  </style>
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <h2>Antes de comprar busca la marca para saber si es una empresa pro Trump.</h2>
+  <input type="text" id="searchBox" placeholder="Escribe para buscar..." />
+  <div class="contador">Total de elementos: <span id="totalCount">0</span></div>
+  <div id="results"></div>
+  <a href="https://bsky.app/profile/frank000.bsky.social">Sigueme en BlueSky</a>
+  <script>
+    let datos = [];
+
+    // Cargar JSON externo
+    fetch('datos.json')
+      .then(response => response.json())
+      .then(json => {
+        datos = json;
+        document.getElementById('totalCount').textContent = datos.length;
+      })
+      .catch(error => {
+        console.error("Error al cargar el JSON:", error);
+      });
+
+    const searchBox = document.getElementById('searchBox');
+    const resultsDiv = document.getElementById('results');
+
+    searchBox.addEventListener('input', () => {
+      const query = searchBox.value.toLowerCase();
+      resultsDiv.innerHTML = '';
+
+      if (query.trim() === '') return;
+
+      const resultados = datos.filter(item =>
+        item.nombre.toLowerCase().includes(query) ||
+        item.descripcion.toLowerCase().includes(query)
+      );
+
+      resultados.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'result';
+        div.innerHTML = `<strong>${item.nombre}</strong><span>${item.descripcion}</span>`;
+        resultsDiv.appendChild(div);
+      });
+    });
+  </script>
+</body>
+</html>
