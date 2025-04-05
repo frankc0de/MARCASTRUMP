@@ -2,10 +2,12 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MARCAS TRUMP</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      font-size: 1rem; 
       padding: 20px;
       background-color: black;
       color:white;
@@ -19,7 +21,7 @@
       margin-bottom: 10px;
     }
     .result {
-      margin-top: 10px;
+      margin-top: 1rem; 
       border-bottom: 1px solid #ccc;
       padding: 8px 0;
       background-color: black;
@@ -27,10 +29,22 @@
     }
     .result strong {
       display: block;
-      font-size: 18px;      
+      font-size:1rem; 
     }
     .contador {
         margin-bottom: 10px;
+
+    .contenedor {
+        max-width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }        
+    .texto-movil {
+            word-wrap: break-word;
+            line-height: 1.5;
+            word-wrap: break-word;
+        }
     }
   </style>
   </style>
@@ -40,10 +54,13 @@
   <!-- colaboradores
    @pablomakillkursis.bsky.social
    -->
-  <h2>Antes de comprar busca la marca para saber si es una empresa pro Trump.</h2>
+  <div class="contenedor">
+  <span class="texto-movil">Antes de comprar busca la marca,
+  para saber si es una empresa pro Trump.</span>
+  <br>
   <input type="text" id="searchBox" placeholder="Escribe para buscar..." />
-  <div class="contador">Total de empresas en la base de datos: <span id="totalCount">0</span></div>
-  <div id="results"></div>
+  <div class="texto-movil">Total de empresas en la base de datos: <span id="totalCount">0</span></div>
+
   <a style="display:inline-block; margin-top:20px; padding:10px 15px; background:#0077cc; color:#fff; border-radius:5px; text-decoration:none;" href="https://bsky.app/profile/frank000.bsky.social">Sigueme en BlueSky</a>
   <a 
   href="https://bsky.app/intent/compose?text=Estoy%20usando%20esta%20app%20genial%20para%20buscar%20productos%20Trumpistas.%20¡Pruébala%20aquí!%20https%3A%2F%2Ffrankc0de.github.io%2FMARCASTRUMP%2F" 
@@ -51,7 +68,8 @@
   style="display:inline-block; margin-top:20px; padding:10px 15px; background:#0077cc; color:#fff; border-radius:5px; text-decoration:none;">
   Compartir en Bluesky
 </a>
-
+<div id="results"></div>
+</div>
   <script>
     let datos = [];
 
